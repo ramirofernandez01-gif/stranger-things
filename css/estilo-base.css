@@ -12,8 +12,9 @@ body {
 }
 
 .imagen-logo {
-    max-width: 10%;
+    aspect-ratio: 2 / 1;
     height: auto;
+    max-height: 150px;
     display: block;
 }
 
