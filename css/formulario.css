@@ -1,0 +1,58 @@
+#seccion-formulario {
+    padding: 40px 20px;
+}
+
+.caja-formulario {
+    background-color: var(--color-gris-oscuro);
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: 0 auto;
+    box-shadow: 0 0 15px rgba(229, 9, 20, 0.3);
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.grupo-campo {
+    display: flex;
+    flex-direction: column;
+}
+
+.ancho-completo {
+    grid-column: 1 / -1; 
+}
+
+label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: var(--color-claro);
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 12px;
+    border: 1px solid var(--color-borde);
+    border-radius: 3px;
+    background-color: var(--color-azul-oscuro);
+    color: var(--color-claro);
+    transition: border-color 0.3s ease;
+}
+
+input:focus, textarea:focus {
+    border-color: var(--color-rojo-neon);
+    outline: none;
+    box-shadow: 0 0 5px var(--color-rojo-neon);
+}
+
+textarea {
+    resize: vertical;
+}
+
+.boton-enviar {
+    width: 100%; 
+    padding: 15px;
+    font-size: 1.1rem;
+}

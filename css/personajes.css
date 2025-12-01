@@ -1,0 +1,34 @@
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.galeria-personajes {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.tarjeta {
+    background-color: #222;
+    color: #fff;
+    border: 1px solid #c41e3a;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.tarjeta:hover {
+    transform: translateY(-5px);
+}
+
+.info {
+    padding: 15px;
+}
+
+h3 {
+    color: #c41e3a;
+    margin-top: 0;
+}

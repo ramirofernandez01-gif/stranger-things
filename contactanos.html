@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stranger Things - Contacto</title>
+    <link rel="icon" href="img/Stranger-Things-logo.png">
+    <link rel="stylesheet" href="css/estilo-base.css">
+    <link rel="stylesheet" href="css/formulario.css"> 
+</head>
+<body>
+    <header class="principal">
+                <img src="img/Stranger-Things-logo.png" alt="Stranger Things Logo" class="imagen-logo">
+        <h1 class="titulo-serie">Stranger Things</h1>
+        <nav class="menu-navegacion">
+            <ul>
+                <li><a href="index.html" class="enlace-menu">Inicio</a></li>
+                <li><a href="el-mundo.html" class="enlace-menu">El Mundo</a></li>
+                <li><a href="personajes.html" class="enlace-menu">Personajes</a></li>
+                <li><a href="contactanos.html" class="enlace-menu activo">Contactanos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="seccion-formulario">
+            <h2 class="titulo-seccion">¡Envíanos una Señal de Radio!</h2>
+            
+            <form action="confirmacion.html" method="GET" class="caja-formulario">
+                
+                <div class="grupo-campo">
+                    <label for="nombre">Nombre (o apodo):</label>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ej. Mike" required>
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="apellido">Apellido (o Código Secreto):</label>
+                    <input type="text" id="apellido" name="apellido" placeholder="Ej. Wheeler" required>
+                </div>
+                
+                <div class="grupo-campo">
+                    <label for="email">Frecuencia de Retorno (Email):</label>
+                    <input type="email" id="email" name="email" placeholder="ej. once@hawkinslab.com" required>
+                </div>
+                
+                <div class="grupo-campo ancho-completo">
+                    <label for="mensaje">Mensaje de Emergencia (Mínimo 10 caracteres):</label>
+                    <textarea id="mensaje" name="mensaje" rows="6" placeholder="¿Viste algo extraño en el bosque? ¡Dinos!" required minlength="10"></textarea>
+                </div>
+                
+                <div class="grupo-campo ancho-completo">
+                    <button type="submit" class="boton boton-rojo boton-enviar">Enviar a la Cabina de Hopper</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="pie-pagina">
+        <p>&copy; 2025 Club Audiovisual de Hawkins. Creado por un aficionado.</p>
+        <div class="enlaces-sociales">
+            <a href="https://www.netflix.com/title/80057281">Netflix</a> | <a href="https://ar.pinterest.com/strangerthingsupsidedown/stranger-things-fan-art/">Fan Art</a>
+        </div>
+    </footer>
+</body>
+</html>
