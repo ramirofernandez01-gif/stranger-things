@@ -19,6 +19,9 @@ main {
 }
 
 h1, h2, h3 {
+  font-family: "DM Serif Text", serif;
+  font-weight: 400;
+  font-style: normal;
     margin-bottom: 15px;
     color: #e50914;
 }
