@@ -111,6 +111,7 @@ img {
     background-color: #e50914;
     color: #f0f0f0;
     text-shadow: 1px 1px 3px #1a1a2e;
+    margin-top: 15px;
 }
 
 .boton-rojo:hover {
