@@ -227,4 +227,10 @@ img {
     .principal{
         flex-direction: column;
     }
+    .caja-flexible{
+        display: flex;
+    gap: 40px;
+    padding: 40px 20px;
+    flex-direction: column-reverse;
+    }
 }
