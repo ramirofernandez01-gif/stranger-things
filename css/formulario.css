@@ -56,3 +56,8 @@ textarea {
     padding: 15px;
     font-size: 1.1rem;
 }
+@media (width < 630px){
+    .caja-formulario{
+            grid-template-columns: 1fr;
+    }
+}
