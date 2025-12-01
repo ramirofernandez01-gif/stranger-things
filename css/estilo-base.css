@@ -223,3 +223,8 @@ img {
 .enlaces-sociales a:hover {
     color: #e50914;
 }
+@media (width < 630px){
+    .principal{
+        flex-direction: column;
+    }
+}
